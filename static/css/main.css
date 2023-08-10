@@ -1,0 +1,55 @@
+body,
+html {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: white;
+}
+
+.content {
+  margin: 0 auto;
+  width: 400px;
+}
+
+table,
+td,
+th {
+  border: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center-form {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+input[type="text"] {
+  width: 300px;
+}
+
+input[type="submit"] {
+  width: 100px;
+}
+
+h1 {
+  text-align: center;
+}
+
+th {
+  height: 30px;
+}
+
+td {
+  text-align: center;
+  padding: 5px;
+}
+
+/* #content {
+  width: 70%;
+} */
